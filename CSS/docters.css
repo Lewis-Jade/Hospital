@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    background-image:url(../IMG/workers-hospital.jpg) ;
+    background-size:cover ;
+    background-color: rgba(0, 0, 255, 0.205);
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    position: absolute;
+    height: 480px;
+    width: 780px;
+    background: #e4c7214b;
+    box-shadow: 4px 4px 25px #000000b2,
+                -4px -4px 25px #000000b2;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    top: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    right: 20px;
+
+}
+.container{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+h2{
+    position: absolute;
+    top: 20px;
+    color: rgb(242, 243, 245);
+}
+.inputbox{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    width: 100%;
+    height: 100%;
+    color: #0664f1;
+    border-radius: 8px;
+    padding: 0 0 0 15px;
+    outline: none;
+    border: none;
+    box-shadow: 4px 4px 5px #0000001e,
+                -4px -4px 5px #0000001e;
+    transition: 0.5s ease-in-out;
+}
+img{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 10px;
+    cursor: pointer;
+}
+input:focus{
+    box-shadow: 2px 2px 5px #08080810,
+    -2px -2px 5px #08080810;
+    transform: translateY(-10px);
+  border: 2px solid #080808a1;
+}
+input[type="submit"]{
+    position: absolute;
+    bottom: 10px;
+    height: 50px;
+    width: 40%;
+    background: rgb(15, 15, 179);
+    color:#fff;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+}
+input[type="submit"]:hover{
+    transform: translateY(-10px);
+    background: #0a8fe7;
+}
+.banner{
+    position: relative;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    left: 2px;
+    top:2px;
+    background: #00000060;
+    color: #fff;
+    border: 2px solid rgb(233, 218, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 600;
+    flex-direction: column;
+    font-size: 26px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 200px;
+    transition: 0.5s ease-in-out;
+    
+}
+strong{
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner:hover{
+    background: #0000009f;
+    cursor: pointer;
+    font-size: 30px;
+}
+.banner:hover ~ form{
+    background: #e4c72177;
+}
+p{
+    position: absolute;
+    top: 10px;
+    z-index: 3;
+    right: 100px;
+    width: 500px;
+    height: 50px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #08080810,
+    -2px -2px 5px #08080810;
+    color: #ff0000;
+
+}
+.success{
+    color: #1ae61a;
+}
+a{
+    position: absolute;
+    width: 100px;
+    background: #151658;
+    height: 44px;
+ color: #fff;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ text-decoration: none;
+ font-size: 20px;
+ font-weight: 500;
+ left: 20px;
+ bottom: 10px;
+ border-radius: 20px;
+ gap: 10px;
+
+    box-shadow: 2px 2px 5px #08080810,
+    -2px -2px 5px #08080810;
+    box-shadow: 2px 2px 5px #08080810,
+    -2px -2px 5px #08080810;
+  transition: 0.5s ease-in-out;
+}
+a:hover{
+    background: #0664f1;
+    transform: translateY(-10px);
+}
